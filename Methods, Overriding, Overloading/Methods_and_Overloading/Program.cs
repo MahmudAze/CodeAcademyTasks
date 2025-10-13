@@ -2,7 +2,7 @@
 {
     class Program
     {
-
+        #region main
         static void Main()
         {
             while (true)
@@ -48,7 +48,9 @@
                 }
             }
         }
+        #endregion
 
+        #region bolunur
         static void bolunur()
         {
 
@@ -66,8 +68,9 @@
                 Console.WriteLine("Bolunmur.");
             }
         }
+        #endregion
 
-
+        #region sum
 
         static void sum()
         {
@@ -95,7 +98,9 @@
             }
 
         }
+        #endregion
 
+        #region sum_in_range
         static void sum_in_between_two_numbers()
         {
 
@@ -135,9 +140,11 @@
                 Console.WriteLine("n ededi m ededinden kicik olmalidir.");
             }
         }
+        #endregion
 
 
 
+        #region sumOdd
         static void sumOddInArray()
         {
             Console.WriteLine("Arrayin element sayini daxil edin: ");
@@ -178,6 +185,10 @@
             }
         }
 
+        #endregion
+
+        #region sumEven
+
         static void sumEvenInArray()
         {
             Console.WriteLine("Arrayin element sayini daxil edin: ");
@@ -216,9 +227,10 @@
                 Console.WriteLine("Arrayda hec bir cut eded yoxdur.");
             }
         }
+        #endregion
 
 
-
+        #region isPrime
         static void checkPrimeNumber()
         {
             Console.WriteLine("Ededi daxil edin: ");
@@ -257,5 +269,6 @@
                 }
             }
         }
+        #endregion
     }
 }
